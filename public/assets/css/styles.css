@@ -1,0 +1,1991 @@
+input[type=text] {
+    border: none !important;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.stakingValue {
+    color: white;
+    background: none;
+    width: 100%;
+
+}
+
+.stakingValue:focus-visible {
+    /* border: 5px solid red !important; */
+    border: none !important;
+}
+
+@media (min-width: 1200px) {
+    .main-navbar {
+        background-color: #2C2F36;
+        padding: 25px 0px;
+    }
+
+    .claim-navbar {
+        background-color: #FFB449;
+        padding: 25px 0px;
+    }
+
+    .main-footbar {
+        background-color: #2C2F36;
+        padding: 25px 0px;
+    }
+
+    .claim-navbar {
+        background-color: #FFB449;
+    }
+
+    .home-stake {
+        background-color: #2C2F36;
+
+    }
+
+    .claimlink {
+        color: #FFB449 !important;
+        border-bottom: 1px solid #FFB449;
+        margin-right: 10px;
+        padding-bottom: 5px;
+    }
+
+    .home-about {
+        background-color: #FFB449;
+        padding: 67px 0px;
+    }
+
+    .home-rules {
+        background-color: #2C2F36;
+        padding: 65px 0px;
+    }
+
+    .home-buy {
+        background-color: #2C2F36;
+        padding-bottom: 65px 0px;
+    }
+
+    .home-rules-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 60px 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-rules-textgap {
+        margin-top: 40px;
+    }
+
+    .btn-staking {
+        background: none;
+        border: 1px solid #FFB449;
+        border-radius: 6px;
+        color: white;
+        padding: 15px 40px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .btn-connectwallet {
+        background-color: #2C2F36;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        padding: 15px 40px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .logo {
+        height: 30px;
+        width: 140px;
+    }
+
+    .home-stake-left {
+        padding-right: 25px;
+        width: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-social {
+        background-color: #2C2F36;
+        border: 1px solid #FFB449;
+        border-radius: 50%;
+    }
+
+    .home-stake-right {
+        width: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-yellowlittletext {
+        text-align: left;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFB449;
+    }
+
+    .home-whitebigtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 50px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .home-yellowbigtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 50px;
+        text-transform: uppercase;
+
+        color: #FFB449;
+    }
+
+    .home-whitegeneraltext {
+        text-align: left;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .home-about-halfpart {
+        width: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-about-littletext {
+        text-align: left;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #2C2F36;
+        padding: 0px 10px;
+    }
+
+    .buycard-gap {
+        padding: 5px;
+    }
+
+    .buycard {
+        background-color: #393D46;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140px;
+    }
+
+    .home-stake-btgap {
+        padding-bottom: 75px;
+    }
+
+    .btn-social {
+        margin-left: 10px;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .APY {
+        border-radius: 50%;
+        background-color: #FFB449;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        padding: 45px 30px;
+        right: 0;
+        top: 8%;
+    }
+
+    .APY .bigtext {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 35px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .APY .littletext {
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .home-everyday {
+        margin: 50px 0px;
+    }
+
+    .single-line {
+        display: flex;
+    }
+
+
+
+    /* claim part */
+    .claim-reward {
+        background-color: #FFB449;
+        padding: 50px 0px;
+    }
+
+    .claim-backtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardtext {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 111px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardgap {
+        padding: 20px 0px;
+    }
+
+    .claim-rewardopacity {
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #2C2F36;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .wallet-connect {
+        padding: 50px 0px 20px 0px;
+        background-color: #2C2F36;
+    }
+
+    .wallet-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 50px 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .claim-approve {
+        width: 33% !important;
+        padding: 0px 10px;
+    }
+
+    .claim-approve .numbertext {
+        width: 70%;
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .claim-approve .fitfitext {
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    .claim-approve .maxtext {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .btn-approve {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFB449;
+        border-radius: 6px;
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .walletconnection-left {
+        width: 66% !important;
+        padding: 0px 10px;
+    }
+
+    .signal {
+        width: 100px;
+        margin-right: 40px;
+    }
+
+    .howorks-text {
+        text-align: left;
+        background-color: #2C2F36;
+        padding: 30px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .fitfi {
+        opacity: 1;
+        color: white;
+        margin-top: 28px;
+    }
+
+    .opsvoty-fitfi {
+        margin-top: 35px;
+    }
+
+    .withrawCombine {
+        display: flex;
+        justify-content: end;
+        ;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .main-navbar {
+        background-color: #2C2F36;
+        padding: 25px 0px;
+    }
+
+    .claim-navbar {
+        background-color: #FFB449;
+        padding: 25px 0px;
+    }
+
+    .main-footbar {
+        background-color: #2C2F36;
+        padding: 25px 0px;
+    }
+
+    .claim-navbar {
+        background-color: #FFB449;
+    }
+
+    .home-stake {
+        background-color: #2C2F36;
+
+    }
+
+    .claimlink {
+        color: #FFB449 !important;
+        border-bottom: 1px solid #FFB449;
+        margin-right: 10px;
+        padding-bottom: 3px;
+    }
+
+    .home-about {
+        background-color: #FFB449;
+        padding: 67px 0px;
+    }
+
+    .home-rules {
+        background-color: #2C2F36;
+        padding: 65px 0px;
+    }
+
+    .home-buy {
+        background-color: #2C2F36;
+        padding-bottom: 65px 0px;
+    }
+
+    .home-rules-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 60px 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-rules-textgap {
+        margin-top: 40px;
+    }
+
+    .btn-staking {
+        background: none;
+        border: 1px solid #FFB449;
+        border-radius: 6px;
+        color: white;
+        padding: 13px 30px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .btn-connectwallet {
+        background-color: #2C2F36;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        padding: 13px 30px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .logo {
+        height: 30px;
+        width: 140px;
+    }
+
+    .home-stake-left {
+        padding-right: 25px;
+        width: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-social {
+        background-color: #2C2F36;
+        border: 1px solid #FFB449;
+        border-radius: 50%;
+    }
+
+    .home-stake-right {
+        width: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-yellowlittletext {
+        text-align: left;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFB449;
+    }
+
+    .home-whitebigtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 37px;
+        line-height: 50px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .home-yellowbigtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 37px;
+        line-height: 50px;
+        text-transform: uppercase;
+
+        color: #FFB449;
+    }
+
+    .home-whitegeneraltext {
+        text-align: left;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .home-about-halfpart {
+        width: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-about-littletext {
+        text-align: left;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #2C2F36;
+        padding: 0px 10px;
+    }
+
+    .buycard-gap {
+        padding: 5px;
+    }
+
+    .buycard {
+        background-color: #393D46;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140px;
+    }
+
+    .home-stake-btgap {
+        padding-bottom: 75px;
+    }
+
+    .btn-social {
+        margin-left: 10px;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .APY {
+        border-radius: 50%;
+        background-color: #FFB449;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        padding: 35px 20px;
+        right: 0;
+        top: 8%;
+    }
+
+    .APY .bigtext {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 35px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .APY .littletext {
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .home-everyday {
+        margin: 45px 0px;
+    }
+
+    .single-line {
+        display: flex;
+    }
+
+
+    /* claim */
+    .claim-reward {
+        background-color: #FFB449;
+        padding: 50px 0px;
+    }
+
+    .claim-backtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardtext {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 111px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardgap {
+        padding: 20px 0px;
+    }
+
+    .claim-rewardopacity {
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #2C2F36;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .wallet-connect {
+        padding: 50px 0px 20px 0px;
+        background-color: #2C2F36;
+    }
+
+    .wallet-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 40px 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    .claim-approve {
+        width: 33% !important;
+        padding: 0px 10px;
+    }
+
+    .claim-approve .numbertext {
+        width: 70%;
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .claim-approve .fitfitext {
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    .claim-approve .maxtext {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .btn-approve {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFB449;
+        border-radius: 6px;
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .walletconnection-left {
+        width: 66% !important;
+        padding: 0px 10px;
+    }
+
+    .signal {
+        width: 60px;
+        margin-right: 40px;
+    }
+
+    .howorks-text {
+        text-align: left;
+        background-color: #2C2F36;
+        padding: 30px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .fitfi {
+        opacity: 1;
+        color: white;
+        margin-top: 28px;
+    }
+
+    .opsvoty-fitfi {
+        margin-top: 35px;
+    }
+
+    .withrawCombine {
+        display: flex;
+        justify-content: end;
+        ;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .main-navbar {
+        background-color: #2C2F36;
+        padding: 20px 0px;
+    }
+
+    .claim-navbar {
+        background-color: #FFB449;
+        padding: 20px 0px;
+    }
+
+    .main-footbar {
+        background-color: #2C2F36;
+        padding: 20px 0px;
+    }
+
+    .claim-navbar {
+        background-color: #FFB449;
+    }
+
+    .home-stake {
+        background-color: #2C2F36;
+
+    }
+
+    .claimlink {
+        color: #FFB449 !important;
+        border-bottom: 1px solid #FFB449;
+        margin-right: 10px;
+    }
+
+    .home-about {
+        background-color: #FFB449;
+        padding: 67px 0px;
+    }
+
+    .home-rules {
+        background-color: #2C2F36;
+        padding: 65px 0px;
+    }
+
+    .home-buy {
+        background-color: #2C2F36;
+        padding-bottom: 65px 0px;
+    }
+
+    .home-rules-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 60px 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-rules-textgap {
+        margin-top: 40px;
+    }
+
+    .btn-staking {
+        background: none;
+        border: 1px solid #FFB449;
+        border-radius: 6px;
+        color: white;
+        padding: 10px 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .btn-connectwallet {
+        background-color: #2C2F36;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        padding: 10px 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .logo {
+        height: 30px;
+        width: 140px;
+    }
+
+    .home-stake-left {
+        padding-right: 25px;
+        width: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-social {
+        background-color: #2C2F36;
+        border: 1px solid #FFB449;
+        border-radius: 50%;
+    }
+
+    .home-stake-right {
+        width: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-yellowlittletext {
+        text-align: left;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFB449;
+    }
+
+    .home-whitebigtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 27px;
+        line-height: 15px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .home-yellowbigtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 27px;
+        line-height: 50px;
+        text-transform: uppercase;
+
+        color: #FFB449;
+    }
+
+    .home-whitegeneraltext {
+        text-align: left;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .home-about-halfpart {
+        width: 35% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-about-righttext {
+        width: 65% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .home-about-littletext {
+        text-align: left;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #2C2F36;
+        padding: 0px 10px;
+    }
+
+    .buycard-gap {
+        padding: 5px;
+    }
+
+    .buycard {
+        background-color: #393D46;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140px;
+    }
+
+    .home-stake-btgap {
+        padding-bottom: 55px;
+    }
+
+    .btn-social {
+        margin-left: 10px;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .APY {
+        border-radius: 50%;
+        background-color: #FFB449;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        padding: 25px 10px;
+        right: 0;
+        top: 8%;
+    }
+
+    .APY .bigtext {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .APY .littletext {
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .check-size {
+        width: 13px;
+    }
+
+    .home-everyday {
+        margin: 20px 0px 30px 0px;
+    }
+
+    .kucoin {
+        width: 120px;
+    }
+
+    .buy {
+        width: 75px;
+    }
+
+    .okex {
+        width: 100px;
+    }
+
+    .huobi {
+        width: 100px;
+    }
+
+    .single-line {
+        display: flex;
+    }
+
+
+    /* claim */
+    .claim-reward {
+        background-color: #FFB449;
+        padding: 50px 0px;
+    }
+
+    .claim-backtext {
+        text-align: center;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardtext {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 111px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardgap {
+        padding: 20px 0px;
+    }
+
+    .claim-rewardopacity {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #2C2F36;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .wallet-connect {
+        padding: 50px 0px 20px 0px;
+        background-color: #2C2F36;
+    }
+
+    .wallet-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .claim-approve {
+        width: 33% !important;
+        padding: 0px 10px;
+    }
+
+    .claim-approve .numbertext {
+        width: 70%;
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .claim-approve .fitfitext {
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    .claim-approve .maxtext {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .btn-approve {
+        display: flex;
+        padding: 0px 30px;
+        justify-content: center !important;
+        align-items: center;
+        background-color: #FFB449;
+        border-radius: 6px;
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .walletconnection-left {
+        width: 63% !important;
+        padding: 0px 10px;
+    }
+
+    .signal {
+        width: 50px;
+        height: 50px;
+        margin-right: 40px;
+    }
+
+    .howorks-text {
+        text-align: left;
+        background-color: #2C2F36;
+        padding: 30px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .fitfi {
+        opacity: 1;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .opsvoty-fitfi {
+        margin-top: 35px;
+    }
+
+    .withrawCombine {
+        display: flex;
+        justify-content: end;
+        ;
+    }
+}
+
+@media (min-width:568px) and (max-width:768px) {
+    .main-navbar {
+        background-color: #2C2F36;
+        padding: 20px 0px;
+    }
+
+    .claim-navbar {
+        background-color: #FFB449;
+        padding: 20px 0px;
+    }
+
+    .main-footbar {
+        background-color: #2C2F36;
+        padding: 20px 0px;
+    }
+
+    .claim-navbar {
+        background-color: #FFB449;
+    }
+
+    .home-stake {
+        background-color: #2C2F36;
+
+    }
+
+    .claimlink {
+        color: #FFB449 !important;
+        border-bottom: 1px solid #FFB449;
+        margin-right: 10px;
+        margin-left: 32px;
+    }
+
+    .home-about {
+        background-color: #FFB449;
+        padding: 30px 0px;
+    }
+
+    .home-rules {
+        background-color: #2C2F36;
+        padding: 35px 0px;
+    }
+
+    .home-buy {
+        background-color: #2C2F36;
+        padding-bottom: 65px 0px;
+    }
+
+    .home-rules-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 40px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-rules-textgap {
+        margin-top: 40px;
+    }
+
+    .btn-staking {
+        background: none;
+        border: 1px solid #FFB449;
+        border-radius: 6px;
+        color: white;
+        padding: 10px 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .btn-connectwallet {
+        background-color: #2C2F36;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        padding: 10px 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .logo {
+        height: 30px;
+        width: 140px;
+    }
+
+    .home-stake-left {
+        order: 2;
+        padding-right: 25px;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-social {
+        background-color: #2C2F36;
+        border: 1px solid #FFB449;
+        border-radius: 50%;
+    }
+
+    .home-stake-right {
+        margin: auto;
+        order: 1;
+        width: 70% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-yellowlittletext {
+        text-align: left;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFB449;
+    }
+
+    .home-whitebigtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 39px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .home-yellowbigtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 27px;
+        line-height: 50px;
+        text-transform: uppercase;
+
+        color: #FFB449;
+    }
+
+    .home-whitegeneraltext {
+        text-align: left;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .home-about-halfpart {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-about-righttext {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3px !important;
+    }
+
+
+    .home-about-littletext {
+        text-align: left;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #2C2F36;
+        padding: 0px 10px;
+    }
+
+    .buycard-gap {
+        padding: 5px;
+        width: 50% !important;
+    }
+
+    .buycard {
+        background-color: #393D46;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140px;
+    }
+
+    .home-stake-btgap {
+        padding-bottom: 55px;
+    }
+
+    .btn-social {
+        margin-left: 10px;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .APY {
+        border-radius: 50%;
+        background-color: #FFB449;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        padding: 25px 10px;
+        right: 0;
+        top: 8%;
+    }
+
+    .APY .bigtext {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .APY .littletext {
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .check-size {
+        width: 13px;
+    }
+
+    .home-everyday {
+        margin: 20px 0px 30px 0px;
+    }
+
+    .single-line {
+        display: block !important;
+    }
+
+    .buy {
+        width: 90px;
+    }
+
+    .kucoin {
+        width: 150px;
+    }
+
+    .okex {
+        width: 125px;
+    }
+
+    .huobi {
+        width: 125px;
+    }
+
+    /* claim */
+    .claim-reward {
+        background-color: #FFB449;
+        padding: 50px 0px;
+    }
+
+    .claim-backtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 111px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardgap {
+        padding: 20px 0px;
+    }
+
+    .claim-rewardopacity {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #2C2F36;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .wallet-connect {
+        padding: 50px 0px 20px 0px;
+        background-color: #2C2F36;
+    }
+
+    .wallet-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .claim-approve {
+        width: 100% !important;
+        padding: 0px 10px;
+    }
+
+    .claim-approve .numbertext {
+        width: 70%;
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .claim-approve .fitfitext {
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    .claim-approve .maxtext {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .btn-approve {
+        padding: 50px;
+        margin-top: 8px;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        background-color: #FFB449;
+        border-radius: 12px;
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .walletconnection-left {
+        width: 100% !important;
+        padding: 0px 10px;
+    }
+
+    .signal {
+        width: 50px;
+        height: 50px;
+        margin-right: 40px;
+    }
+
+    .howorks-text {
+        text-align: left;
+        background-color: #2C2F36;
+        padding: 30px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .fitfi {
+        opacity: 1;
+        color: white;
+        margin-top: 27px;
+    }
+
+    .opsvoty-fitfi {
+        margin-top: 35px;
+    }
+
+    .withrawCombine {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .reward-number {
+        font-weight: 900;
+        font-size: 48px !important;
+        line-height: 78px;
+        /* identical to box height */
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .claim-approveorder1 {
+        order: 1;
+    }
+
+    .claim-approveorder2 {
+        order: 2;
+    }
+
+    .claim-approveorder3 {
+        margin-top: 15px !important;
+        order: 3;
+    }
+
+    .claim-stakedyou {
+        display: none;
+    }
+}
+
+@media (max-width:568px) {
+    .main-navbar {
+        background-color: #2C2F36;
+        padding: 20px 0px;
+    }
+
+    .claim-navbar {
+        background-color: #FFB449;
+        padding: 20px 0px;
+    }
+
+    .main-footbar {
+        background-color: #2C2F36;
+        padding: 20px 0px;
+    }
+
+    .claim-navbar {
+        background-color: #FFB449;
+    }
+
+    .home-stake {
+        background-color: #2C2F36;
+
+    }
+
+    .home-about {
+        background-color: #FFB449;
+        padding: 30px 0px;
+    }
+
+    .home-rules {
+        background-color: #2C2F36;
+        padding: 35px 0px;
+    }
+
+    .home-buy {
+        background-color: #2C2F36;
+        padding-bottom: 65px 0px;
+    }
+
+    .home-rules-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 40px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-rules-textgap {
+        margin-top: 40px;
+    }
+
+    .btn-staking {
+        width: 100%;
+        background: none;
+        border: 1px solid #FFB449;
+        border-radius: 6px;
+        color: white;
+        padding: 10px 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .btn-connectwallet {
+        background-color: #2C2F36;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        padding: 10px 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .logo {
+        height: 30px;
+        width: 140px;
+    }
+
+    .home-stake-left {
+        order: 2;
+        padding-right: 25px;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-social {
+        background-color: #2C2F36;
+        border: 1px solid #FFB449;
+        border-radius: 50%;
+    }
+
+    .home-stake-right {
+        margin: auto;
+        order: 1;
+        width: 80% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-yellowlittletext {
+        text-align: left;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFB449;
+    }
+
+    .home-whitebigtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 39px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .home-yellowbigtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 27px;
+        line-height: 50px;
+        text-transform: uppercase;
+
+        color: #FFB449;
+    }
+
+    .home-whitegeneraltext {
+        text-align: left;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .home-about-halfpart {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-about-righttext {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3px !important;
+    }
+
+
+    .home-about-littletext {
+        text-align: left;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #2C2F36;
+        padding: 0px 10px;
+    }
+
+    .buycard-gap {
+        padding: 5px;
+        width: 50% !important;
+    }
+
+    .buycard {
+        background-color: #393D46;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140px;
+    }
+
+    .home-stake-btgap {
+        padding-bottom: 55px;
+    }
+
+    .btn-social {
+        margin-left: 10px;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .APY {
+        border-radius: 50%;
+        background-color: #FFB449;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        padding: 25px 6px;
+        right: 0;
+        top: 8%;
+    }
+
+    .APY .bigtext {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .APY .littletext {
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .check-size {
+        width: 13px;
+    }
+
+    .home-everyday {
+        margin: 20px 0px 30px 0px;
+    }
+
+    .single-line {
+        display: block !important;
+    }
+
+    .buy {
+        width: 90px;
+    }
+
+    .kucoin {
+        width: 150px;
+    }
+
+    .okex {
+        width: 125px;
+    }
+
+    .huobi {
+        width: 125px;
+    }
+
+    .claim-reward {
+        background-color: #FFB449;
+        padding: 50px 0px;
+    }
+
+    .claim-backtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 111px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardgap {
+        padding: 20px 0px;
+    }
+
+    .claim-rewardopacity {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #2C2F36;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .wallet-connect {
+        padding: 50px 0px 20px 0px;
+        background-color: #2C2F36;
+    }
+
+    .wallet-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .claim-approve {
+        width: 100% !important;
+        padding: 0px 10px;
+    }
+
+    .claim-approve .numbertext {
+        width: 70%;
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .claim-approve .fitfitext {
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    .claim-approve .maxtext {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .btn-approve {
+        padding: 50px;
+        margin-top: 8px;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        background-color: #FFB449;
+        border-radius: 12px;
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .walletconnection-left {
+        width: 100% !important;
+        padding: 0px 10px;
+    }
+
+    .signal {
+        width: 50px;
+        height: 50px;
+        margin-right: 40px;
+    }
+
+    .howorks-text {
+        text-align: left;
+        background-color: #2C2F36;
+        padding: 30px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .fitfi {
+        opacity: 1;
+        color: white;
+        margin-top: 32px;
+    }
+
+    .opsvoty-fitfi {
+        margin-top: 35px;
+    }
+
+    .withrawCombine {
+        order: 3;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .reward-number {
+        font-weight: 900;
+        font-size: 65px !important;
+        line-height: 78px;
+        /* identical to box height */
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .claim-approveorder1 {
+        order: 1;
+    }
+
+    .claim-approveorder2 {
+        order: 2;
+    }
+
+    .claim-approveorder3 {
+        margin-top: 15px !important;
+        order: 3;
+    }
+
+    .claim-stakedyou {
+        display: none;
+    }
+}
+
+
+.stakingModalView {
+    width: 200px;
+}
